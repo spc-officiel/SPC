@@ -1,59 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SPC Connexion</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body{
-font-family:Arial;
-background:#f4f4f4;
-padding:20px;
-}
-
-.box{
-background:white;
-padding:20px;
-border-radius:10px;
-max-width:400px;
-margin:auto;
-}
-
-input,button{
-width:100%;
-padding:10px;
-margin-top:10px;
-}
-
-button{
-background:red;
-color:white;
-border:none;
-}
-</style>
+    <title>SPC - Plateforme de services</title>
+    <meta charset="UTF-8">
 </head>
-
 <body>
 
-<div class="box">
+<h1>Bienvenue sur SPC</h1>
 
-<h2>SPC Connexion</h2>
+<p>Plateforme de mise en relation entre clients et prestataires.</p>
 
-<input id="email" placeholder="Email">
-<input id="password" type="password" placeholder="Mot de passe">
+<button onclick="alert('Connexion client')">Espace Client</button>
 
-<button onclick="login()">Connexion</button>
-
-</div>
-
-<script>
-
-function login(){
-
-alert("Connexion SPC réussie (mode test)");
-
-}
-
-</script>
+<button onclick="alert('Connexion prestataire')">Espace Prestataire</button>
 
 </body>
 </html>
